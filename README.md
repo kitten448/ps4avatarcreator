@@ -13,6 +13,7 @@ This guide covers how to unpack and repack the avatar fpkg, which was left as an
 - **.NET Core 3.0 Runtime (x64)**, needed to run PkgTool: [download](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-3.0.3-windows-x64-installer)
 - **PkgTool.Core** from [LibOrbisPkg](https://github.com/OpenOrbis/LibOrbisPkg) (included in this download)
 - Windows with PowerShell (built into Windows 10 and 11)
+- Tested with "Extra Avatars - Anime.pkg". Other packs from the archive should work the same way, but I haven't tested them.
 
 ---
 
@@ -44,7 +45,7 @@ You only do this once. It extracts the original avatar pack into the "work" fold
 3. Run this command (replace the file name with the pack you downloaded):
 
 ```
-PkgTool.Core.exe pkg_makegp4 "Extra Avatars.pkg" work
+PkgTool.Core.exe pkg_makegp4 "Extra Avatars - Anime.pkg" work
 ```
 
 If it asks for a passcode, add `--passcode 00000000000000000000000000000000` right after `pkg_makegp4`.
