@@ -1,4 +1,4 @@
-# PS4 Custom Avatar Pack Maker
+# PS4 Custom Avatar Pack Creator
 
 Script and guide for building custom avatar packs for LAPY's Avatar Changer on a jailbroken PS4.
 
